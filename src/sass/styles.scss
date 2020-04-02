@@ -1,0 +1,71 @@
+@import "_var.scss";
+@import "_fonts.scss";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color:$black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-darken {
+    background-color: $ab-darken;
+}
+
+header {
+    .logo {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 30px;
+        img {
+            width: 100%;
+        }
+    }
+}
+.navbar {
+    height: 95px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
+    color: $white;
+    font-family: 'Dynar';
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .nav-item {
+            .nav-link {
+                color: $white;
+                font-size: 36px;
+                text-transform: uppercase;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}
+section.water {
+    padding:38px 0;
+    .row {
+        background-image: url(../images/Sect1-bg.png);
+        background-repeat: repeat;
+        padding: 65px 0;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 105px;
+        }
+        h1 {
+            font-size: 48px;
+           
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+    }
+}

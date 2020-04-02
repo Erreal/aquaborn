@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Dynar-Medium';
+    src: url('Dynar-Medium.svg#Dynar-Medium') format('svg'),
+         url('Dynar-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Dynar';
+    src: url('ofont.ru_Dynar.eot');
+    src: url('ofont.ru_Dynar.eot?#iefix') format('embedded-opentype'),
+         url('ofont.ru_Dynar.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&display=swap');
