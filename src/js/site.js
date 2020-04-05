@@ -14,4 +14,18 @@ $(document).ready(function(){
             }
         }
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            if ($('#up-button').is(':hidden')) {
+                $('#up-button').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#up-button').stop(true, false).fadeOut('fast'); }
+    });
+    
+    $('#up-button').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
   });
+
+  

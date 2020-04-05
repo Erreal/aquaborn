@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
@@ -10,7 +11,8 @@
     <link rel="stylesheet" href="/css/styles.min.css">
     <title>Питьевая вода AquaBorn</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <?php require_once 'popup.php'; ?>
     <header>
         <div class="container">
             <div class="row">
@@ -28,13 +30,13 @@
               <div class="container">
                 <ul class="nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">О воде</a>
+                    <a class="nav-link" href="#section1">О воде</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Состав</a>
+                    <a class="nav-link" href="#section2">Состав</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Диспенсеры</a>
+                    <a class="nav-link" href="#section3">Диспенсеры</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">Заказать</a>
@@ -43,7 +45,7 @@
             </div>
           </div>
     </nav>
-    <section class="water">
+    <section class="water" id="section1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -62,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="composition">
+    <section class="composition" id="section2"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -84,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="dispensers">
+    <section class="dispensers" id="section3">
         
         <div class="container">
             <h2>Диспенсеры для розлива воды</h2>
@@ -127,9 +129,10 @@
             </div>
         </div>
     </footer>
+    <div id="up-button"></div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script  src="http://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="/js/owl.carousel.min.js"></script>

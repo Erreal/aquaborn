@@ -1,19 +1,14 @@
 @font-face {
-    font-family: 'Dynar-Medium';
-    src: url('../fonts/Dynar-Medium.svg#Dynar-Medium') format('svg'),
-         url('../fonts/Dynar-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Dynar';
-    src: url('../fonts/ofont.ru_Dynar.eot');
-    src: url('../fonts/ofont.ru_Dynar.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ofont.ru_Dynar.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Dynar-Medium';
+  src: url('../fonts/Dynar-Medium.eot');
+  src: url('../fonts/Dynar-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Dynar-Medium.svg#Dynar-Medium') format('svg'),
+       url('../fonts/Dynar-Medium.ttf') format('truetype'),
+       url('../fonts/Dynar-Medium.woff') format('woff'),
+       url('../fonts/Dynar-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&display=swap');
   @font-face {
      font-family: 'icomoon';
