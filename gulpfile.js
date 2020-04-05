@@ -8,12 +8,11 @@ const rename = require("gulp-rename");
 gulp.task('server', function() {
 
     browserSync({
-        server: {
-            baseDir: "src"
-        }
+        proxy: "aquaborn.local"
     });
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/**/*.php").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
