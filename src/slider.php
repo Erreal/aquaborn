@@ -24,8 +24,5 @@ echo $output;
 
 
     
-       <!-- <div class="slider-item"> 
-            <img src="/coolers/images/1.png" alt="">
-            <a href="#" class="button" target="_blank">Заказать</a>
-        </div>-->
+ 
    

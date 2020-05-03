@@ -38,6 +38,7 @@ header {
                 color: $white;
                 font-size: 33px;
                 text-transform: uppercase;
+                cursor: pointer;
                 &:hover {
                     text-decoration: underline;
                 }
@@ -93,7 +94,7 @@ section.composition {
         }
     }
 }
-section.dispensers {
+.dispensers {
     padding: 38px 0;
     .slider {
         .owl-carousel {
@@ -238,3 +239,5 @@ section.dispensers {
     position: fixed;
     z-index: 999;
 }
+@import "_popup.scss";
+@import "_media.scss";

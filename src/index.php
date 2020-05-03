@@ -38,8 +38,8 @@
                     <li class="nav-item">
                     <a class="nav-link" href="#section3">Диспенсеры</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Заказать</a>
+                    <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link popup_form">Заказать</a>
                     </li>
                 </ul>
             </div>
@@ -64,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="composition" id="section2"> 
+  <section class="composition" id="section2"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="dispensers" id="section3">
+     <section class="dispensers" id="section3">
         
         <div class="container">
             <h2>Диспенсеры для розлива воды</h2>
