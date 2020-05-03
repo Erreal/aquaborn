@@ -21,13 +21,13 @@
     // функция отправки письма
     function send_mail($message){
         // почта, на которую придет письмо
-        $mail_to = "erreal@yandex.ru"; 
+        $mail_to = "all-coolers@yandex.ru"; 
         // тема письма
         $subject = "Заявка с сайта aquaborn.ru";
          
         $headers= "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n"; // кодировка письма
-        $headers .= "From: Тестовое письмо <no-reply@ref33.ru>\r\n"; // от кого письмо
+        $headers .= "From: Питьевая вода AquaBorn <no-reply@aquaborn.ru>\r\n"; // от кого письмо
        
         mail($mail_to, $subject, $message, $headers);
     }
