@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +10,6 @@
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="/css/styles.min.css">
     <title>Питьевая вода AquaBorn</title>
-
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(25909328, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/25909328" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <?php require_once 'popup.php'; ?>
@@ -67,8 +52,8 @@
                     <img src="/images/Bottle.webp" alt="aquaborn bottle">
                 </div>
                 <div class="col-lg-6">
-                    <h1>Питьевая вода <br>AquaBorn&trade;</h1> 
-                    <p>Вода торговой марки "АкваБорн" добывается из скважины глубиной 197 метров, в экологически чистом районе Подмосковья. 
+                    <h1>Питьевая вода <br>AquaBorn&trade;</h1>
+                    <p>Вода торговой марки "АкваБорн" добывается из скважины глубиной 197 метров, в экологически чистом районе Подмосковья.
                         Наша вода полностью соответствует ГОСТ Р 52109-2003. Линия розлива воды выполняет все требования СанПиН 2.1.4.1116-02 для воды высшей категории качества.</p>
                     <p>"АкваБорн" - полностью природная вода, она не проходит дополнительной минерализации и кондиционирования. Минеральный
                          состав воды позволяет рекомендовать ее для ежедневного употребления как взрослым, так и детям.</p>
@@ -79,7 +64,7 @@
             </div>
         </div>
     </section>
-  <section class="composition" id="section2"> 
+  <section class="composition" id="section2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -102,7 +87,7 @@
         </div>
     </section>
      <section class="dispensers" id="section3">
-        
+
         <div class="container">
             <h2>Диспенсеры для розлива воды</h2>
             <?php require_once 'slider.php' ?>
@@ -138,13 +123,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>Все права защищены &copy; 2020 aquaborn.ru </p>
+                        <p>Все права защищены &copy; 2022 aquaborn.ru </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <div id="up-button"></div>
+<!-- Yandex.Metrika counter -->
+            <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(25909328, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+            });
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/25909328" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script  src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>

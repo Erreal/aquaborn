@@ -13,6 +13,19 @@ h1, h2, h3, h4, h5 {
 .bg-darken {
     background-color: $ab-darken;
 }
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 header {
     .logo {
@@ -61,7 +74,7 @@ section.water {
         }
         h1 {
             font-size: 48px;
-           
+
             text-align: center;
             margin-bottom: 50px;
         }
@@ -157,7 +170,7 @@ section.composition {
             display: block;
             width: 100%;
             margin: 15px auto;
-            margin-bottom: 35px;            
+            margin-bottom: 35px;
         }
         .button {
             display: block;
@@ -165,7 +178,7 @@ section.composition {
             text-decoration: none;
             padding: 10px;
             line-height: 1;
-            font-family: Roboto;    
+            font-family: Roboto;
             font-size: 40px;
             margin: 15px auto;
             background-color: $ab-lighter;
